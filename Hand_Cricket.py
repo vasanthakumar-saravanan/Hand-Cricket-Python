@@ -41,10 +41,10 @@ while True:
         else:
          scoreofcomputer+=random_number
     if(scoreofcomputer>scoreofplayer):
-        print("The computer wins")
+        print("The computer wins the game")
     elif(player_number==random_number):
         if scoreofplayer>scoreofcomputer:
-            print("You win")
+            print("You win the game")
         elif(scoreofplayer==scoreofcomputer):
             print("The match is draw")
         
@@ -54,4 +54,5 @@ while True:
         break
     if scoreofcomputer>scoreofplayer:
         break
+    
     
