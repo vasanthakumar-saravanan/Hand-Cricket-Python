@@ -4,7 +4,7 @@ while True:
     random_number = random.randint(1, 6)
     player_number=input("\nEnter a number:")
     try:
-        player_number=int(player_number)    #Done by Hemanth
+        player_number=int(player_number)    #Done by Hemant
     except ValueError:
         print("Warning : Please enter a number between 1 and 6")
         continue
