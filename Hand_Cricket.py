@@ -55,4 +55,3 @@ while True:
     if scoreofcomputer>scoreofplayer:
         break
     
-    
