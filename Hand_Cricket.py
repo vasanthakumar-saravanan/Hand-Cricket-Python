@@ -49,10 +49,9 @@ while True:
             print("The match is draw")
         
     print("\nTotal score of computer::",scoreofcomputer)
-    if(random_number==player_number):
-        print("\nThe computer is out" )
-        break
     if scoreofcomputer>scoreofplayer:
+        break
+    if(random_number==player_number):
         break
     
     
